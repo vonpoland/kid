@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="solidMonitor">
 <head lang="en">
     <meta charset="UTF-8">
     <title>Kid</title>
@@ -7,8 +7,21 @@
     <!-- endbower -->
 </head>
 <body>
+
+<div ng-controller="monitorCtrl">
+    <audio src="http://localhost:8080/text/domek z kart"></audio>
+
+</div>
 <!-- bower:js -->
-<script src="scripts/libraries/angularjs/angular.js"></script>
+<script src="scripts/libraries/angular/angular.js"></script>
+<script src="scripts/libraries/firebase/firebase.js"></script>
+<script src="scripts/libraries/angularfire/dist/angularfire.js"></script>
 <!-- endbower -->
+
+<script src="scripts/kid/module.js"></script>
+<script src="scripts/monitor/module.js"></script>
+<script src="scripts/monitor/service.buildCheck.js"></script>
+<script src="scripts/monitor/ctrl.monitor.js"></script>
+<script src="scripts/app.js"></script>
 </body>
 </html>

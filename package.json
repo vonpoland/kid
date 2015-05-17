@@ -1,9 +1,16 @@
 {
   "name": "kid",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.12.3",
+    "firebase": "^2.2.4",
+    "http-server": "^0.8.0",
+    "lodash": "^3.8.0",
+    "node-google-text-to-speech": "^0.1.0"
+  },
   "devDependencies": {
     "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
     "wiredep": "^2.2.2"
   }
 }
