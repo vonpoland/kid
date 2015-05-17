@@ -1,0 +1,9 @@
+{
+  "name": "kid",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "wiredep": "^2.2.2"
+  }
+}
